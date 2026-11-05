@@ -1,5 +1,5 @@
 {
-  "utc": "2026-11-05T04:12:04.087Z",
+  "utc": "2026-11-05T13:39:25.687Z",
   "actor": "Codex",
   "repo": "pagelove/journal-template",
   "scope": "Candidate source closure; audit files excluded to avoid recursive receipts",
@@ -37,13 +37,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 2395,
-      "sha256": "5ce81df13996d6177cdeca14a9310c30b561362f76015361775aed21d66f415a"
+      "bytes": 3538,
+      "sha256": "a9a77303fe2f3445d38f197c3c0bf0be1235ce6184907d0375e09fc61f914a6f"
     },
     {
       "path": "REVIEW.md",
-      "bytes": 1767,
-      "sha256": "787da7e4687046dacf92b00e0f76b7c3617c2468ffe220f768f4284ef0c83bad"
+      "bytes": 2910,
+      "sha256": "52f3581812c3152f219cd78793cfa05bf843a95116b78c6f6fb26b9c5fb9cce2"
     },
     {
       "path": "bun.lock",
