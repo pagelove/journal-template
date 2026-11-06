@@ -1,10 +1,117 @@
 ---
 "name": "Editorial"
 "colors":
-  "primary": "#303e52"
-  "neutral": "#faf7f1"
-  "accent": "#174ede"
-  "border": "#c9c3b7"
+  "primary": "#eae5dc"
+  "background-brand-light": "#0e0c07"
+  "background-brand-regular": "#2c2821"
+  "background-brand-strong": "#666550"
+  "background-danger-light": "#490609"
+  "background-danger-regular": "#a21219"
+  "background-danger-strong": "#e91923"
+  "background-disabled": "#716c65"
+  "background-discovery-light": "#272541"
+  "background-discovery-regular": "#4c478c"
+  "background-discovery-strong": "#6c66c5"
+  "background-elevation-light": "#0c1420"
+  "background-elevation-regular": "#1a2435"
+  "background-elevation-strong": "#243145"
+  "background-information-light": "#152556"
+  "background-information-regular": "#1940b4"
+  "background-information-strong": "#1f64f1"
+  "background-neutral-hovered": "#121b2a"
+  "background-neutral-pressed": "#1a2435"
+  "background-neutral-selected": "#121b2a"
+  "background-success-light": "#062d0b"
+  "background-success-regular": "#186320"
+  "background-success-strong": "#1a9f26"
+  "background-surface-light": "#0c1420"
+  "background-surface-regular": "#121b2a"
+  "background-surface-strong": "#1a2435"
+  "background-warning-light": "#441606"
+  "background-warning-regular": "#9d390f"
+  "background-warning-strong": "#ef6107"
+  "border-brand": "#7f7a65"
+  "border-danger": "#a21219"
+  "border-danger-light": "#a21219"
+  "border-danger-strong": "#ff676e"
+  "border-disabled": "#1a2435"
+  "border-discovery": "#4c478c"
+  "border-focused": "#59a6ff"
+  "border-information": "#1940b4"
+  "border-inverse": "#c9c3b7"
+  "border-light": "#1a2435"
+  "border-regular": "#243145"
+  "border-selected": "#90c6ff"
+  "border-strong": "#716c65"
+  "border-success": "#186320"
+  "border-warning": "#9d390f"
+  "button-borderless-icon-default": "#eae5dc"
+  "button-borderless-icon-disabled": "#716c65"
+  "button-borderless-icon-hovered": "#f3efe7"
+  "button-borderless-icon-pressed": "#faf7f1"
+  "button-borderless-icon-selected": "#eae5dc"
+  "button-borderless-text-default": "#eae5dc"
+  "button-borderless-text-disabled": "#716c65"
+  "button-borderless-text-hovered": "#f3efe7"
+  "button-borderless-text-pressed": "#faf7f1"
+  "button-borderless-text-selected": "#eae5dc"
+  "button-gradient-bg-default": "#0c1420"
+  "button-gradient-bg-disabled": "#0c1420"
+  "button-gradient-bg-hovered": "#121b2a"
+  "button-gradient-bg-pressed": "#1a2435"
+  "button-gradient-bg-selected": "#1a2435"
+  "button-regular-default": "#1a2435"
+  "button-regular-disabled": "#121b2a"
+  "button-regular-hovered": "#121b2a"
+  "button-regular-pressed": "#1a2435"
+  "button-regular-text": "#ddd7cc"
+  "button-secondary-icon-default": "#eae5dc"
+  "button-secondary-icon-disabled": "#716c65"
+  "button-secondary-icon-hovered": "#f3efe7"
+  "button-secondary-icon-pressed": "#faf7f1"
+  "button-secondary-icon-selected": "#eae5dc"
+  "button-secondary-text-default": "#eae5dc"
+  "button-secondary-text-disabled": "#716c65"
+  "button-secondary-text-hovered": "#f3efe7"
+  "button-secondary-text-pressed": "#faf7f1"
+  "button-secondary-text-selected": "#eae5dc"
+  "button-strong-default": "#ddd7cc"
+  "button-strong-disabled": "#45556c"
+  "button-strong-hovered": "#c9c3b7"
+  "button-strong-pressed": "#a59f95"
+  "button-strong-text": "#0c1420"
+  "icon-brand": "#d9d7ce"
+  "icon-danger": "#ff9fa4"
+  "icon-disabled": "#45556c"
+  "icon-discovery": "#b6bfeb"
+  "icon-information": "#90c6ff"
+  "icon-inverse": "#121b2a"
+  "icon-light": "#c9c3b7"
+  "icon-regular": "#eae5dc"
+  "icon-selected": "#f3efe7"
+  "icon-strong": "#faf7f1"
+  "icon-success": "#89ec91"
+  "icon-warning": "#ffc071"
+  "link-icon-default": "#59a6ff"
+  "link-icon-hover": "#90c6ff"
+  "link-icon-inverse": "#1f64f1"
+  "link-icon-pressed": "#bddbff"
+  "link-text-default": "#59a6ff"
+  "link-text-hover": "#90c6ff"
+  "link-text-pressed": "#bddbff"
+  "link-text-visited": "#59a6ff"
+  "text-brand": "#d9d7ce"
+  "text-danger": "#ff9fa4"
+  "text-disabled": "#45556c"
+  "text-discovery": "#b6bfeb"
+  "text-information": "#90c6ff"
+  "text-inverse": "#121b2a"
+  "text-light": "#c9c3b7"
+  "text-regular": "#eae5dc"
+  "text-selected": "#f3efe7"
+  "text-strong": "#faf7f1"
+  "text-success": "#89ec91"
+  "text-warning": "#ffc071"
 "typography":
   "heading":
     "fontFamily": "Source Serif 4"
@@ -24,6 +131,33 @@
   "small": "8px"
   "medium": "16px"
   "large": "32px"
+"components":
+  "button-default":
+    "backgroundColor": "{colors.button-strong-default}"
+    "textColor": "{colors.button-strong-text}"
+    "rounded": "{rounded.button}"
+    "padding": "12px"
+    "height": "44px"
+  "button-hovered":
+    "backgroundColor": "{colors.button-strong-hovered}"
+    "textColor": "{colors.button-strong-text}"
+    "rounded": "{rounded.button}"
+    "padding": "12px"
+    "height": "44px"
+  "button-pressed":
+    "backgroundColor": "{colors.button-strong-pressed}"
+    "textColor": "{colors.button-strong-text}"
+    "rounded": "{rounded.button}"
+    "padding": "12px"
+    "height": "44px"
+  "page":
+    "backgroundColor": "{colors.background-surface-light}"
+    "textColor": "{colors.text-regular}"
+  "panel":
+    "backgroundColor": "{colors.background-surface-regular}"
+    "textColor": "{colors.text-regular}"
+    "rounded": "{rounded.card}"
+    "padding": "32px"
 ---
 
 # Editorial
@@ -32,7 +166,7 @@
 
 Build readable applications with visible structure and one clear next action per task. Apply this design's declared heading and body families, surfaces and geometry consistently. Prefer meaningful content and neutral separators over decorative panels. The values above describe the selected starting style; the complete scales and roles live in this design's exports.
 
-Use warm paper surfaces, slate ink, square-edged reading panels and understated actions. Prefer long-form content and clear type hierarchy. Use the bundled local fonts and product compositions. Separate page, panel and inset surfaces; keep metadata quiet but readable. Use the exported page/panel/row spacing and title scale consistently, with 44px action targets and brief 160ms interaction feedback. See docs/polish.md for the complete product contract. Available modes: light, dark. Initial mode: light.
+Use warm paper surfaces, slate ink, square-edged reading panels and understated actions. Prefer long-form content and clear type hierarchy. Use the bundled local fonts and product compositions. Separate page, panel and inset surfaces; keep metadata quiet but readable. Use the exported page/panel/row spacing and title scale consistently, with 44px action targets and brief 160ms interaction feedback. See docs/polish.md for the complete product contract. Available modes: light, dark. Initial mode: dark. This file contains exact values for dark only.
 
 ## Colors
 
@@ -56,9 +190,13 @@ Favor flat surfaces, whitespace and thin neutral borders. Use small shadows only
 
 Apply this design's declared card and button radii. Utility icon actions can remain rounded or squared according to purpose. Keep control hit regions at least 44px as a design default, independently of icon size. Do not infer physical size or native dp/sp from CSS pixels.
 
-## Product polish
+### Product polish
 
 Use the exported design-page-padding, design-panel-padding, design-row-padding, design-radius-input, design-title-size, design-heading-tracking and design-transition-duration values. The heading size in the metadata is the desktop maximum; use design-title-size-mobile on narrow screens. Use design-text-small for action labels and design-text-caption for supplementary metadata. Follow docs/polish.md and examples/workspace.html for overview, collection/detail and settings compositions. Preserve readable metadata, 44px controls and all error, empty, pending and recovery states.
+
+## App identity and social sharing
+
+Read docs/identity-and-sharing.md. Keep the app's logo and name stable when selecting this design. Replace the sample branding/site.json and branding/mark.svg, then regenerate the icon family, social images and metadata. Social templates use this design's actual tokens and supported mode; never infer a light mode for a dark-only design. Root assets/social/default.png follows the catalog default. Page-specific content or custom imagery can override it. Publish PNG social images and complete server-rendered head metadata; SVG sources are editable artwork, not universal social-platform image formats. Check small icons, long text, cropping and the deployed URLs.
 
 ## Components
 

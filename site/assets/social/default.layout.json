@@ -1,0 +1,16 @@
+{
+  "design": "editorial",
+  "mode": "dark",
+  "titleLines": [
+    "Put it into words."
+  ],
+  "titleSize": 84,
+  "descriptionLines": [
+    "Private notes, one day at a time."
+  ],
+  "fonts": [
+    "Source Serif 4",
+    "Inter"
+  ],
+  "safeInset": 64
+}
